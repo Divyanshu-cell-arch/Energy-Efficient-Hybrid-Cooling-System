@@ -20,8 +20,6 @@ Conventional air conditioning systems rely heavily on vapor compression refriger
 - Develop an automated control algorithm for dynamic mode selection.
 - Reduce power consumption while maximizing system COP.
 - Integrate sensors for real-time monitoring of temperature, humidity, airflow, and power consumption.
-- Improve operational safety through automated fault detection and monitoring.
-- Validate system performance through thermal analysis, engineering calculations, and CAD modelling.
 
 ---
 
@@ -31,10 +29,7 @@ Conventional air conditioning systems rely heavily on vapor compression refriger
 - Real-time temperature and humidity monitoring
 - Power consumption measurement and COP optimization
 - Arduino Nano ESP32-based control system
-- Data logging using Micro SD card
-- OLED-based live system monitoring
 - Safety monitoring using water-level and vibration sensors
-- Energy-efficient hybrid cooling operation 
 
 
 
@@ -86,7 +81,6 @@ The hybrid cooling system demonstrated:
 - Thermal Design Calculations
 - Control Algorithm
 - Experimental Results
-- Performance Evaluation
 - Final Report
 
 ---
@@ -95,10 +89,7 @@ The hybrid cooling system demonstrated:
 
 - Fusion 360
 - Arduino IDE
-- ESP32
 - HVAC System Design
-- Heat Transfer
-- Thermodynamics
 - Embedded Systems
 - Automation & Control
 - Mechanical Design
