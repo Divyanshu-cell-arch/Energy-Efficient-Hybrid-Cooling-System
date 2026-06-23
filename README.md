@@ -2,28 +2,43 @@
 
 ## Project Overview
 
-This project presents the design and development of an energy-efficient hybrid cooling system that combines Indirect Evaporative Cooling (IEC) with a Vapor Compression Cycle (VCC) to reduce overall energy consumption while maintaining effective cooling performance.
+This project focuses on the design, automation, and performance optimization of an intelligent hybrid cooling system integrating Direct Evaporative Cooling (DEC), Indirect Evaporative Cooling (IEC), and Direct Expansion (DX) technologies.
 
-The system was designed through thermal analysis, CAD modelling, engineering calculations, and component optimization to provide an environmentally sustainable cooling solution suitable for residential and commercial applications.
+The system combines mechanical design, thermal engineering, embedded electronics, and control algorithm development to automatically select the most energy-efficient cooling mode based on real-time environmental conditions. The objective is to minimize energy consumption while maintaining effective cooling performance for residential and commercial HVAC applications.
 
 ---
 
 ## Problem Statement
 
-Conventional air conditioning systems consume significant electrical energy and contribute to environmental concerns. There is a growing need for an energy-efficient cooling solution capable of reducing power consumption while maintaining acceptable thermal comfort.
+Conventional air conditioning systems rely heavily on vapor compression refrigeration, resulting in high electrical energy consumption and operating costs. Existing hybrid cooling systems often lack intelligent control strategies capable of dynamically selecting the optimum cooling mode based on ambient conditions, leading to inefficient operation and reduced overall performance.
 
 ---
 
 ## Objectives
 
-- Develop a hybrid cooling system combining IEC and VCC technologies.
-- Improve cooling efficiency while reducing energy consumption.
-- Optimize airflow and heat transfer performance.
-- Design a compact and manufacturable system.
-- Validate the design through engineering calculations and CAD modelling.
+- Design an intelligent hybrid cooling system integrating DEC, IEC, and DX technologies.
+- Develop an automated control algorithm for dynamic mode selection.
+- Reduce power consumption while maximizing system COP.
+- Integrate sensors for real-time monitoring of temperature, humidity, airflow, and power consumption.
+- Improve operational safety through automated fault detection and monitoring.
+- Validate system performance through thermal analysis, engineering calculations, and CAD modelling.
 
 ---
 
+## Key Features
+
+- Intelligent automatic cooling mode selection
+- Real-time temperature and humidity monitoring
+- Power consumption measurement and COP optimization
+- Arduino Nano ESP32-based control system
+- Data logging using Micro SD card
+- OLED-based live system monitoring
+- Safety monitoring using water-level and vibration sensors
+- Energy-efficient hybrid cooling operation 
+
+
+
+---
 ## CAD Design
 
 *(Insert Assembly Render)*
@@ -32,24 +47,59 @@ Complete CAD models are available in the **CAD/** folder.
 
 ---
 
-## Engineering Drawings
+## Control Algorithm 
 
-Manufacturing drawings are available in the **Engineering_Drawings/** folder.
-
----
-
-## Design Calculations
-
-Thermal analysis, heat transfer calculations, cooling load calculations, and design validation are available in the **Calculations/** folder.
+The system continuously monitors ambient temperature, humidity, airflow, and electrical power before automatically selecting the operating mode that provides the highest Coefficient of Performance (COP). The controller also performs continuous fault monitoring and safety checks while logging experimental data for further analysis.
 
 ---
 
-## Simulation
+## Hardware Components
 
-Simulation and performance evaluation results are available in the **Simulation/** folder.
+- Arduino Nano ESP32
+- SHT41 Temperature & Humidity Sensor
+- DS18B20 Temperature Sensors
+- PZEM-004T Energy Meter
+- Solid State Relay (SSR)
+- AC Contactor
+- OLED Display
+- Micro SD Card Logger
+- Water Level Sensor
+- Vibration Sensor 
 
 ---
 
-## Final Report
+## Performance Results
 
-Complete project documentation is available in the **Report/** folder.
+The hybrid cooling system demonstrated:
+- Lower outlet air temperatures than conventional DX systems
+- Higher Coefficient of Performance (COP)
+- Reduced compressor power consumption
+- Intelligent optimization of cooling mode based on ambient conditions
+- Improved overall energy efficiency across multiple airflow conditions 
+
+---
+
+## Engineering Documents
+
+- CAD Models
+- Engineering Drawings
+- Thermal Design Calculations
+- Control Algorithm
+- Experimental Results
+- Performance Evaluation
+- Final Report
+
+---
+
+## Technologies Used
+
+- Fusion 360
+- Arduino IDE
+- ESP32
+- HVAC System Design
+- Heat Transfer
+- Thermodynamics
+- Embedded Systems
+- Automation & Control
+- Mechanical Design
+
